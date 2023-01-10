@@ -13,7 +13,7 @@ function TimeToText(tempo){
 	return result;
 }
 
-export default function App({ initialTime = 300 }) {
+export default function VideoRecord({ initialTime = 300 }) {
   const videoElement = React.useRef();
 
   const [isCameraAllowed, setIsCameraAllowed] = React.useState(true);
